@@ -83,4 +83,4 @@ All possibilities Brilliant Lunch:"
   
   ### I hope you will like my algorithm logic. It is quit efficient.
   ---
-  ### Thank you <3
+  ### Thank you <:3
