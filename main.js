@@ -40,6 +40,6 @@ const matchLunchEvent = events
 console.log(
   "Brilliant Lunch:",
   matchLunchEvent[0], // no possible event will return undefined
-  "\nAll possibilities:",
+  "\nAll possible brilliant lunch:",
   matchLunchEvent
 )
