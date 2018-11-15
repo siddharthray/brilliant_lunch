@@ -2,7 +2,7 @@
 
 ## sample set of events included
 
-const events = [
+- const events = [
  {start: 225, end: 285, name: "Hemant" },
  {start: 210, end: 270, name: "Rani"},
  {start: 180, end: 240, name: "Raj" },
