@@ -1,6 +1,6 @@
 # brilliant_lunch
 
-#sample set of events included
+## sample set of events included
 
 const events = [
  {start: 225, end: 285, name: "Hemant" },
@@ -11,10 +11,10 @@ const events = [
  {start: 270, end: 330, name: "Kishore"  }
 ];
 
-#request event is added
+## request event is added
 const requestByNikki = { start: 220, end: 280, name: "Nikki" };
 
-#time overlap algorithm
+## time overlap algorithm
 const match = req => opt => ({
   // Calculate the overlap between two blocks
   overlap: opt.end <= req.start || opt.start > req.end
@@ -25,10 +25,10 @@ const match = req => opt => ({
   label: `${req.name} - ${opt.name}`
 });
 
-//Overlap rule for 30 or mins
+## Overlap rule for 30 or mins
 const overlapRule = ({ overlap }) => overlap >= 30;
 
-#sorting logic
+### sorting logic
 const sortLogic = (m1, m2) => 
   // Sort by overlap first
   m2.overlap > m1.overlap ?  1 : 
@@ -38,9 +38,8 @@ const sortLogic = (m1, m2) =>
   m2.start < m1.start     ?  1 :
                              0 ;
                              
- // Chaining match filter and sorting
+ ### Chaining match filter and sorting
  
- // Chain match, filter, sort:
 const matchLunchEvent = events
   .map(match(requestByNikki))
   .filter(overlapRule)
@@ -70,8 +69,8 @@ All possibilities Brilliant Lunch:"
 }]
 
 
-  #I have written the algoritm in this and made the sample temple.The template won't have event blocks on it beacuse
+  ## I have written the algoritm in this and made the sample temple.The template won't have event blocks on it beacuse
   I am not sure what jquery or other lib need to be used for setting the block on the different time.
   
-  #I hope my you will like my algorithm logic
-  #Thank you !
+  ## I hope my you will like my algorithm logic
+  ## Thank you !
