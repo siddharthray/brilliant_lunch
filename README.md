@@ -81,5 +81,5 @@ All possibilities Brilliant Lunch:"
 ---
   ##### I have written the logic for the problem statement and made the sample temple.The template won't have event blocks on it beacuse I am not sure what jquery or other lib need to be used for setting the block on the different time.
   
-  ### I hope you will like my algorithm logic. It is quit efficient. I have written in ES6.
+  ### I hope you will like my algorithm logic. It is quit efficient.
   ### Thank you !
