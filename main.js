@@ -2,7 +2,7 @@
 "use strict"
 
 const requestByJohn = { start: 220, end: 280, name: "John" };
-const options = [
+const events = [
  {start: 225, end: 285, name: "Jane" },
  {start: 210, end: 270, name: "Aisha"},
  {start: 180, end: 240, name: "Brad" },
@@ -32,7 +32,7 @@ const sortLogic = (m1, m2) =>
                              0 ;
 
 // Chain match, filter, sort:
-const matchLunchEvent = options
+const matchLunchEvent = events
   .map(match(requestByJohn))
   .filter(overlapRule)
   .sort(sortLogic);
