@@ -63,7 +63,7 @@ const matchLunchEvent = events
   start: 220
 }
 "
-All possibilities Brilliant Lunch:"
+All possible Brilliant Lunch:"
 [[object Object] {
   label: "Nikki - Harshit",
   overlap: 60,
