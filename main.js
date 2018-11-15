@@ -1,14 +1,14 @@
 
 "use strict"
 
-const requestByJohn = { start: 220, end: 280, name: "John" };
+const requestByNikki = { start: 220, end: 280, name: "Nikki" };
 const events = [
- {start: 225, end: 285, name: "Jane" },
- {start: 210, end: 270, name: "Aisha"},
- {start: 180, end: 240, name: "Brad" },
- {start: 180, end: 330, name: "Alice"},
- {start: 300, end: 360, name: "Yusef"},
- {start: 270, end: 330, name: "Rob"  }
+ {start: 225, end: 285, name: "Hemant" },
+ {start: 210, end: 270, name: "Rani"},
+ {start: 180, end: 240, name: "Raj" },
+ {start: 180, end: 330, name: "Harshit"},
+ {start: 300, end: 360, name: "Gautam"},
+ {start: 270, end: 330, name: "Kishore"  }
 ];
 
 const match = req => opt => ({
@@ -33,7 +33,7 @@ const sortLogic = (m1, m2) =>
 
 // Chain match, filter, sort:
 const matchLunchEvent = events
-  .map(match(requestByJohn))
+  .map(match(requestByNikki))
   .filter(overlapRule)
   .sort(sortLogic);
   
