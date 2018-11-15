@@ -72,5 +72,5 @@ All possibilities Brilliant Lunch:"
   ## I have written the algoritm in this and made the sample temple.The template won't have event blocks on it beacuse
   I am not sure what jquery or other lib need to be used for setting the block on the different time.
   
-  ## I hope my you will like my algorithm logic
+  ## I hope you will like my algorithm logic
   ## Thank you !
